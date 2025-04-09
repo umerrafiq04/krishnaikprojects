@@ -1,5 +1,14 @@
 pandas
 numpy
 seaborn
--e .
+matplotlib
+scikit-learn
+catboost
+xgboost
+dill
+# -e .
 # automatically trigger setup.py
+#  In simple terms, -e . in a requirements.txt file installs a 
+# Python package in editable mode, meaning any changes you make to
+#  the code will be reflected without needing to reinstall the package.
+

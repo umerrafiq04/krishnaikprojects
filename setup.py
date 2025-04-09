@@ -1,4 +1,11 @@
 # build application as a package
+
+'''The setup.py file is at the heart of a Python project.
+ It describes all the metadata about your project. There are quite a few
+fields you can add to a project to give it a rich set of metadata describing the project. 
+However, there are only three required fields: name, version, and packages.'''
+
+
 from setuptools import find_packages,setup
 from typing import List
 
